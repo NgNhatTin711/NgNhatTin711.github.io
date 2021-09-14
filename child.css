@@ -1,0 +1,40 @@
+.art-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px
+}
+.art-grid img{
+    transition: 0.3s linear;
+}
+.art-grid img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px 1px #373737;
+}
+.porfolio--tittle{
+    text-align: center;
+    font-size: 5rem;
+    padding:5rem 0 6rem 0;
+}
+.porfolio--tittle h1{
+    display:inline-block;
+    letter-spacing: 60px;
+}
+.see-more{
+    margin-top:80px;
+}
+.brand{
+    background-color: #f77567;
+}
+.brand:hover{
+    background-color:#5f0e0a ;
+}
+.hm::before{
+    position: relative;
+    content: attr(data-tittle);
+    display: block;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #f77567 ;
+    letter-spacing: 5px;
+}

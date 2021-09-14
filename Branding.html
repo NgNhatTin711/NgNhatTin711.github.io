@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Branding</title>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="child.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+<link href="index.html" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script> 
+<nav class="wow fadeInDown">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"> <img src="./img/logo.png" alt=""></a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li>
+                    <a class="active" href="index.html #home">HOME</a>
+                </li>
+                <li>
+                   <a href="index.html #about">About</a>
+               </li>
+               <li>
+                   <a href="index.html #services">Services</a>
+               </li>
+               <li>
+                   <a href="index.html #porfolio">Porfolio</a>
+               </li>
+               <li>
+                   <a href="index.html #blog">Blog</a>
+               </li>
+               <li>
+                   <a href="index.html #contact">Contact</a>
+               </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class=" porfolio--tittle">
+    <h1 class="left wow fadeInLeft ">Port</h1>
+    <h1 class="right wow fadeInRight ">folio</h1>
+    <hr>
+</section>
+
+<div class="section-header">
+    <i class="material-icons">hdr_weak</i> <h3 class="hm tittle" data-tittle="Họa Mộc">Branding</h3>  <i class="material-icons">hdr_weak</i>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="catalogue-grid">
+            
+                <img src="./img/hm1.jpg" alt="">
+                <img src="./img/hm2.jpg" alt="">
+                <img src="./img/hm3.jpg" alt="">
+                <img src="./img/hm4.jpg" alt="">
+                <img src="./img/hm5.jpg" alt="">
+                <img src="./img/hm6.jpg" alt="">
+            
+               
+                
+            
+            
+        </div>
+        <div class="see-more">
+            <a class="brand btn" href="#">
+                See more
+           </a> 
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="grid-3">
+            <div class="f-column f-about">
+                <h3 class="tittle-sm">INFORMATION</h3>
+                <ul>
+                    <li> <a href="#about">
+                        About Me
+                    </a></li>
+                    <li><a href="#">
+                        Conventions
+                    </a></li>
+                    <li><a href="#">
+                        Contact/Support
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="f-column f-social">
+                <h3 class="tittle-sm">SOCIAL MEDIA</h3>
+                <ul>
+                    <li><a href="#">
+                        Instagram
+                    </a></li>
+                    <li><a href="#">
+                        Deviant Art
+                    </a></li>
+                    <li><a href="#">
+                        Facebook
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="f-column f-sub">
+                <h3 class="tittle-sm">SUBSCRIBE</h3>
+                <p class="text">Sign up for the latest news</p>
+            <div class="warp-f-input">
+                <input type="email" class="f-input" placeholder="Email" >
+                <a href="#" class="arrow">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h4>THANKS FOR WATHCHING</h4>
+    <p>Copyright @2021 by Kin</p>
+</div>
+    </div>
+</section>
+
+<button id="bt1" onClick="topFunction()"><i class="fa fa-angle-up"></i></button>
+
+<script>
+    var mybutton=document.getElementById("bt1")	;
+    window.onscroll=function(){scrollFunction()};
+function scrollFunction(){
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            mybutton.style.display="block";
+        }
+        else{
+            mybutton.style.display="none"
+            
+        }
+    }
+function topFunction(){
+document.body.scrollTop=0;
+document.documentElement.scrollTop=0;
+}
+</script>
+</body>
